@@ -1,0 +1,115 @@
+ /* html {
+	background-image: url("https://images.unsplash.com/photo-1547122891-8aae3f2a03dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position
+}*/
+ #blog{
+	background-image: url("https://images.unsplash.com/photo-1547122891-8aae3f2a03dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position
+ }
+nav li{
+	display: inline;
+	font-weight: bolder;
+	font-size: 25px
+	
+	text-transform: uppercase;
+	font-family: sans-serif; 
+	margin-right: 30px;
+
+}
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: teal;
+}
+
+h1 {
+ color: purple;	
+  }
+ h4 { 
+	 color: teal; 		
+	 font-size: 30px;
+	 margin-block-end: .33em 
+ }
+ li{
+ 	font-weight: inherit;
+ }
+
+ button {
+ 	border: 2px solid;
+ 	padding: 10px, 25px;
+ 	display: block;
+ 	margin-bottom: 20px;
+ }
+ button:hover {
+ 	background-color: black;
+ 	color: white;
+ }
+ .redButton {
+ 	border: 2px solid red;
+ }
+ .redButton:hover {
+ 	background-color: red;
+ }
+ .blueButton {
+ 	border: 2px solid blue;
+ }
+ .blueButton:hover {
+ 	background-color: blue;
+ }
+ img { 
+ border: 5px dotted red;
+  }
+  /* use the commas to seperate multiple selectors and apply the same rule*/
+ table, th, td {
+ 	border: 3px solid black;
+ }
+ table {
+ 	background-color: teal;
+ 	padding: 15px; 
+ 	margin: 0 auto; /* when there are 2 numbers the 1st set is for top and bottem the the 2nd is for right and left */
+ 	text-align: center;
+ }
+ th, td {
+ 	background-color: white;
+ 	padding: 5px; 
+ }
+ .tableHeadingRow {
+ 	margin-bottom: 10px;
+
+ }
+
+ /* The # signals an ID*/
+ #key {
+ 	color: purple;
+ 	text-align: center;
+ }
+ /* The . signals a class*/
+ .eduImage {
+ 	transform: rotate(360deg);
+ }
+ #wf {
+ 	position: absolute;
+ 	left: 50% ;
+ 
+ }
+ form{
+ 	font-family: serif;
+ 	color: purple;
+ 	
+ }
+ form input, form select {
+ 	display: block;
+ 	
+
+ }
+ .inline{
+ 	display: inline;
+ }
